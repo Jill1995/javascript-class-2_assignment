@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The Parsons Web Project</title>
+  <meta name="description" content="The Dummy Page">
+  <meta name="author" content="Parsons">
+
+  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+
+</head>
+
+<body>
+  <header></header>
+
+  <section id = "mySection">
+
+    <!-- this is a test h1 block -->
+    <h1 id="title">
+      This is the Page Title
+    </h1>
+
+  
+
+    <!-- these are test p blocks -->
+    <p id="changeP">This link is to test <strong>Mouse events</strong>!</a></p>
+    <p id="P">Testing DOM operations</a></p>
+
+    <table id="table1">
+        <tr>
+          <td>Cell 1:1</td>
+          <td>Cell 2:1</td>
+          <td>Cell 3:1</td>
+         <td>Cell 4:1</td>
+           <td>Cell 5:1</td>
+        </tr>
+         <tr>
+           <td>Cell 1:2</td>
+           <td>Cell 2:2</td>
+           <td>Cell 3:2</td>
+           <td>Cell 4:2</td>
+           <td>Cell 5:2</td>
+         </tr>
+         <tr>
+          <td>Cell 1:3</td>
+           <td>Cell 2:3</td>
+           <td>Cell 3:3</td>
+           <td>Cell 4:3</td>
+           <td>Cell 5:3</td>
+         </tr>
+         <tr>
+           <td>Cell 1:4</td>
+           <td>Cell 2:4</td>
+           <td>Cell 3:4</td>
+           <td>Cell 4:4</td>
+           <td>Cell 5:4</td>
+         </tr>
+         <tr>
+             <td>Cell 1:5</td>
+             <td>Cell 2:5</td>
+         <td>Cell 3:5</td>
+           <td>Cell 4:5</td>
+         <td>Cell 5:5</td>
+        </tr>
+       </table>
+
+    <!-- this is a test list block-->
+    <ul id="testList">
+      <li>one</li>
+      <li>two</li>
+    </ul>
+
+  </section>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
